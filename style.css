@@ -135,4 +135,32 @@
         transform: rotate(0deg);
     }
 }
+.ex-12-button:hover >.ex-12-top-white{
+    animation: going-back 2s linear ;
+}
+.ex-12-button:hover >.ex-12-bottom-white{
+    animation: going-back2 2s linear ;
+}
+@keyframes going-back{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: calc(100% - 60px);
+    }
+    100%{
+        left: 10%;
+    }
+}
+@keyframes going-back2{
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: calc(100% - 60px);
+    }
+    100%{
+        right: 20%;
+    }
+}
 /* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
