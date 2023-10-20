@@ -112,11 +112,27 @@
     scale: 60%;
 }
 .ex-10-icon{
-    animation: rotazione 1s linear infinite;
+    animation: spin 0.5s linear infinite;
 }
-@keyframes rotazione{
+@keyframes spin {
     0%{
-        transform: rotate(-1turn);
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: spin2 1.5s linear alternate;
+}
+
+@keyframes spin2{
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
 /* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
