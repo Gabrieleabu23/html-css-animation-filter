@@ -105,4 +105,10 @@
     filter: blur(5px) brightness(0.25);
     border-radius: 5%;
 }
+.ex-9-img:hover{
+    transition: 3s;
+    filter: blur(5px) brightness(0.25);
+    border-radius: 5%;
+    scale: 60%;
+}
 /* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
