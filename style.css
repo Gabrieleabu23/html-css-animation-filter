@@ -163,4 +163,89 @@
         right: 20%;
     }
 }
+.ex-13-button:hover >.ex-13-top-white{
+    animation: rotate-all 2s linear ;
+}
+.ex-13-button:hover>.ex-13-bottom-white{
+    animation: rotate-all2 2s linear ;
+}
+@keyframes rotate-all{
+    0%{
+        left: calc(10% - 10px);
+        top: calc(0% - 20px);
+    }
+    20%{
+        left: calc(100% - 60px);
+        top: calc(25% - 20px);
+    }
+    40%{
+        left: 100%;
+        top: calc(100% - 20px);
+    }
+    50%{
+        left: calc(80% - 60px);
+        top: 100%;
+    }
+    60%{
+        left: calc(20% - 60px);
+        top: 100%;
+    }
+    80%{
+        left: calc(0% - 10px);
+        top: 20%;
+    }
+    90%{
+        left: calc(0% - 20px);
+        top: calc(0% - 10px);
+    }
+    100%{
+        left: 10%;
+        top: calc(0% - 10px);
+    }
+    
+}
+@keyframes rotate-all2{
+    0%{
+        right: 20%;
+        bottom: calc(0% - 10px);
+    }
+    20%{
+        right: calc(100% - 50px);
+        bottom: calc(0% - 10px);
+    }
+    30%{
+        right: calc(100% - 50px);
+        bottom: calc(100% - 10px);
+    }
+    50%{
+        right: calc(80% - 50px);
+        bottom: calc(100% - 10px);
+    }
+    60%{
+        right: calc(20% - 50px);
+        bottom: 100%;
+    }
+    70%{
+        right: calc(0% - 50px);
+        bottom: 20%;
+    }
+    75%{
+        right: calc(0% - 60px);
+        bottom: calc(0% - 10px);
+    }
+    80%{
+        right: calc(5% - 60px);
+        bottom: calc(0% - 10px);
+    }
+    90%{
+        right: calc(15% - 60px);
+        bottom: calc(0% - 10px);
+    }
+    100%{
+        right: calc(20% - 60px);
+        bottom: calc(0% - 10px);
+    }
+    
+}
+
 /* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
