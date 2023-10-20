@@ -67,3 +67,22 @@
     width: 60px;
     height: 20px;
 }
+
+/* INIZIO PARTE MODIFICATA CON ANIMAZIONI ED EFFETT */
+.ex-1-square:hover{
+    background-color: red;
+    transition: all 1s ease-in;
+}
+.ex-2-square:active{
+    transition: 2s;
+    width: 100%;
+}
+.ex-3-square:hover{
+    transition: 1s;
+    border-radius: 100%;
+}
+.ex-4-square:hover{
+    transition: 1s;
+    opacity: 0;
+}
+/* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
