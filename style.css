@@ -111,4 +111,12 @@
     border-radius: 5%;
     scale: 60%;
 }
+.ex-10-icon{
+    animation: rotazione 1s linear infinite;
+}
+@keyframes rotazione{
+    0%{
+        transform: rotate(-1turn);
+    }
+}
 /* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
