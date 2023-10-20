@@ -85,4 +85,12 @@
     transition: 1s;
     opacity: 0;
 }
+.ex-5-square:hover{
+    transition: 1s;
+    scale: 200%;
+}
+.ex-5-square:active{
+    transition: 1s;
+    scale: 50%;
+}
 /* FINE PARTE MODIFICATA CON ANIMAZIONI ED EFFETTI */
